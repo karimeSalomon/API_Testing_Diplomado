@@ -1,41 +1,29 @@
-def is_operator(b, c):
-    return b is c
-
 # Create python script applying at least one time each one of the operators learned
-
-
 def perform_operation(a, b, c):
-    switcher = {
-        "+": b + c,
-        "-": b - c,
-        "*": b * c,
-        "/"
-perform_operation('*', 4, 2)
-perform_operation('/', 4, 2): b / c,
-        "is": is_operator(b, c),
-        #"in": b in c,
-        #"not in": b not in c,
-        #"==(value)": b == c,
-        #"==(ref)": id(b) == id(c)
-    }
-    print(switcher.get(a, "Invalid operation"))
+    try:
+        res = eval("b " + a + " c")
+        return f"{b} {a} {c} {'='} {res}"
+    except TypeError as e:
+        print("Invalid operation for operator: " + a + str(e))
+    except SyntaxError as e:
+        print(str(e))
 
 
-perform_operation('+', 4, 2)
-perform_operation('-', 4, 2)
-perform_operation('is', 4, [2, 4])
+print(perform_operation('+', 4, 2))
+print(perform_operation('-', 4, 2))
+print(perform_operation('*', 4, 2))
+print(perform_operation('/', 4, 2))
+print(perform_operation("is", 4, 4))
+print(perform_operation("is not", 4, 4))
 # lists
-# perform_operation('in', 4, [2, 4])
-# perform_operation('not in', 4, [2, 5, 7])
-# primitives
-
-#perform_operation('==(value)', 4, 4)
-#perform_operation('==(ref)', 4, 2)
+print(perform_operation('in', 4, [2, 4]))
+print(perform_operation('not in', 4, [2, 4]))
+# compare int values
+print(perform_operation('==', 4, 4))
+print(perform_operation('==', 4, 2))
 # objects
-#perform_operation('==(value)', [4], [4])
-#perform_operation('==(ref)', [4], [4])
-
-
-
-
-
+print(perform_operation('==', [4], [4]))
+print(perform_operation('==', [4], [2]))
+# Exceptions
+print(perform_operation('+', 4, [2]))
+print(perform_operation('wrongSyntax', 4, [2]))
