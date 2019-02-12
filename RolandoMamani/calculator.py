@@ -1,4 +1,5 @@
 def my_calculator(operator, number1, number2):
+    "This function is a calculator for main operator, +, -, * and /"
     if (operator == "*"):
         print(number1 * number2)
     else:
