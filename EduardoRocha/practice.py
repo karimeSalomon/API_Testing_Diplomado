@@ -2,7 +2,7 @@ def test1(operator, number1, number2):
 
     if (operator == "+"):
         print('La operacion es una suma:')
-        resultado = number1 * number2
+        resultado = number1 + number2
     else:
          print('La operacion no es una Suma XXXXXXX')
          if(operator == "*"):
