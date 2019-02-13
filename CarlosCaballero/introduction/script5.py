@@ -7,13 +7,19 @@ import math
 import sys
 
 def isprime(number):
-    if number < 2:
+    if number < 1:
         return False
+    elif number < 4:
+        return True
     else:
         for value in range(2,math.floor(math.sqrt(number))+1):
             if number % value == 0:
                 return False
         return True
+
+if len(sys.argv) < 3:
+    print('no value was provided')
+    exit()
 
 # input: two positive integers
 # output: set of primes in range
@@ -22,11 +28,11 @@ max = sys.argv[2]
 valid = True
 
 if not str.isdigit(min):
-    print('argument1 is not a number')
+    print('argument1 is not a valid number')
     valid = False
 
 if not str.isdigit(max):
-    print('argument2 is not a number')
+    print('argument2 is not a valid number')
     valid = False
 
 if not valid:
