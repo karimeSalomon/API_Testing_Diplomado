@@ -1,12 +1,18 @@
 # practice #1
 
+# create a function that receive 3 arguments:
+# 2 numbers and 1 operation
+# according the operation defined the expected result need to be printed.
+
 def perform_operation(operator,a,b):
     dict={
-        '+':a+b,
-        '-':a-b,
-        '*':a*b,
-        '/':a/b,
-        '**':a**b
+        '+': a + b,
+        '-': a - b,
+        '*': a * b,
+        '/': a / b,
+        '%': a % b,
+        '**': a ** b,
+        '//': a // b
     }
 
     return dict.get(operator)

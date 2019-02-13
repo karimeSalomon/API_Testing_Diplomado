@@ -1,3 +1,5 @@
+# class #1
+
 a = 10
 b = 30
 
@@ -33,8 +35,9 @@ else:
 
 # Comments
 def print_lyrics():
-    "this is"
+    "this is the line reserved for documentation using docstring"
     print('additional line')
+    print('additional line 2')
 
 print_lyrics()
 
