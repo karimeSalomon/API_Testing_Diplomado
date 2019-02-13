@@ -1,14 +1,15 @@
 # Create python script applying at least one time each one of the operators learned
-def perform_operation(a, b, c):
+def perform_operation(operator, num1, num2):
     try:
-        res = eval("b " + a + " c")
-        return f"{b} {a} {c} {'='} {res}"
+        res = eval("num1 " + operator + " num2")
+        return f"{num1} {operator} {num2} {'='} {res}"
     except TypeError as e:
-        print("Invalid operation for operator: " + a + str(e))
+        print("Invalid operation for operator: " + operator + " " + str(e))
     except SyntaxError as e:
         print(str(e))
 
 
+# print obtained result
 print(perform_operation('+', 4, 2))
 print(perform_operation('-', 4, 2))
 print(perform_operation('*', 4, 2))
