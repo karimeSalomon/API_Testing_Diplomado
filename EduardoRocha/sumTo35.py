@@ -13,4 +13,4 @@ def sum_numbers(x):
 
 
 
-sum_numbers(20)
+sum_numbers(8)
