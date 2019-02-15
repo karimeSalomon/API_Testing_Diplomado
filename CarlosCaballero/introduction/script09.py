@@ -22,7 +22,7 @@ def getBlocks(text,prefix,suffix):
     while True:
         begin = text.find(prefix,index)
 
-        if(begin==-1):
+        if begin == -1:
             return results
         else:
             end = text.find(suffix,begin)
