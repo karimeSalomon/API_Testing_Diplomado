@@ -4,6 +4,10 @@ Practice 2:
         -     2 numbers
         -     1 operations
     According the operation defined the expected result need to be printed. For example :  operator “*” , numbers: “5” “6”, perform_operation(“*”,”5”,”6”) => 30
+
+Practice 3:
+        -  Create python script applying at least one time each one of the operators learned.
+        -  Print the values and the condition that give you the result obtained.
 """
 
 
