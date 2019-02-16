@@ -1,4 +1,3 @@
-
 """
 Practice 10:
       Write a function replace(s, old, new) that replaces all occurrences of old with new in a string s:
