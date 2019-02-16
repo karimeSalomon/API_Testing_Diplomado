@@ -17,7 +17,7 @@ example = """
 def replace(string,old,new):
     replaced = ''
     compare = False
-    j = 1
+    j = 0
     cache = ''
 
     for i,val in enumerate(string):
@@ -26,30 +26,26 @@ def replace(string,old,new):
                 compare = True
                 j = 1
                 cache = old[0]
-                print('=>',i,val,compare,j,cache)
             else:
                 replaced += val
-                print('=>',i,val,compare,j,cache)
         else:
             if j < len(old):
                 if val==old[j]:
                     cache += old[j]
                     j += 1
-                    print('=>',i,val,compare,j,cache)
                 else:
                     compare = False
                     replaced += cache
-                    print('=>',i,val,compare,j,cache)
             else:
                 compare = False
                 replaced += new
-                print('=>',i,val,compare,j,cache)
         
         if len(old) == j:
             compare = False
             replaced += new
+            j = 0
 
     return replaced
 
-print(replace('LaLaLaLa','L','M'))
+print(replace(example,'o','i'))
 
