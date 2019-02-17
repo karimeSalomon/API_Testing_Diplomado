@@ -23,8 +23,8 @@ users = {}
 def readUserInformation():
     amount_of_iusers = int (input("Enter the amount of users you want to register:  "))
     for i in range(amount_of_iusers):
-        user_name = input("Please, enter the user name")
-        user_age = input("Please, enter the age for " + user_name)
+        user_name = input("Please, enter the user name:  ")
+        user_age = input("Please, enter the age for " + user_name + ":  ")
         users[user_name] = user_age
 
 def printUsersAge():
