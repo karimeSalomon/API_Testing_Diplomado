@@ -1,37 +1,37 @@
-# practive #9
+# practice #9
 
-# write the program that reads a string and returns a table of the letters of
-# the alphabet in alphabetical order which occur in the string together with the
-# number of times each letters occurs.
-# - case should be ignored. A sample output of the program when the user enters
-# the data
+# function 1:
+# no arguments defined
+# should ask to the user the number of elements in the list
+# according the value inserted ask for each value of the array 
+# and push it in a new array
+# return the array
+#
+# function 2
+# should receive 1 argument (the array returned in method 1)
+# Should print the array
 
-example = """
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-    lobortis quam augue, a http://www.google.com.bo tincidunt risus egestas
-    vel. Cras libero urna, iaculis nec nisl vitae, sagittis porttitor massa.
-    Donec sem tellus, dapibus vitae rhoncus pretium, http://www.yahoo.com
-    egestas eu urna. Praesent lectus nisi, ornare vitae tortor ac, rhoncus
-    vulputate nulla. Etiam lacinia consequat diam in laoreet. Integer dictum
-    est quis neque hendrerit semper. Integer eleifend ullamcorper velit, in
-    posuere augue sollicitudin sit amet. Nam id pellentesque turpis.
-    """
+def function1():
+    print('Ingrese el tamaño de la lista')
+    count = input()
+    list = []
 
-def counter(text):
-    table={}
+    if str.isdigit(count):
+        count = int(count)
 
-    for letter in text:
-        if letter.isalnum():
-            letter = letter.lower()
+        for i in range(count):
+            value = ''
+            while not str.isdigit(value):
+                print('=> Ingrese el valor numero',i+1)
+                value = input()
+            list.append(value)
+    else:
+        print('Numero invalido')
+    return list
 
-            if letter in table:
-                table[letter] += 1
-            else:
-                table[letter] = 1
-    
-    return table
+def function2(array):
+    for i,value in enumerate(array):
+        print(i,' => ',value)
 
-table = counter(example)
-for key in sorted(table.keys()):
-    print('{0} => {1}'.format(key,table[key]))
+function2(function1())
 

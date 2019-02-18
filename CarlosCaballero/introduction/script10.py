@@ -47,5 +47,19 @@ def replace(string,old,new):
 
     return replaced
 
+print(example)
+print("print(replace(example,'o','i'))")
 print(replace(example,'o','i'))
+
+print('Mississippi')
+print("print(replace('Mississippi','i','I')")
+print(replace('Mississippi','i','I'))
+
+song = 'I love spom! Spom is my favorite food.Spom, spom, yum!'
+
+print(song)
+print("print(replace(song,'om','am'))")
+print(replace(song,'om','am'))
+print("print(replace(song,'o','a'))")
+print(replace(song,'o','a'))
 
