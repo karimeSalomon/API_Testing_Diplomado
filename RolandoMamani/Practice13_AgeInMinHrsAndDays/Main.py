@@ -15,13 +15,13 @@ Practice 13:
 """
 
 
-# import RolandoMamani.Practice13_AgeInMinHrsAndDays.lib.AgeCalculator as AgeCalculator
-# from RolandoMamani.Practice13_AgeInMinHrsAndDays.lib.AgeCalculator import calculateAge
+import lib.AgeCalculator as AgeCalculator
+import lib.AgePrinter as AgePrinter
 
 users = {}
 
 def readUserInformation():
-    amount_of_iusers = int (input("Enter the amount of users you want to register:  "))
+    amount_of_iusers = int(input("Enter the amount of users you want to register:  "))
     for i in range(amount_of_iusers):
         user_name = input("Please, enter the user name:  ")
         user_age = input("Please, enter the age for " + user_name + ":  ")
@@ -32,32 +32,11 @@ def printUsersAge():
     print("----------------------------------------------------------------------------------------------------")
     for i in users:
         print(i + " is " + users[i] + " years old. Then " + i + " ", end="")
-        printAge(int(users[i]))
-        print("     Age in days:     " + str(calculateAgeInDays(int(users[i]))))
-        print("     Age in hours:    " + str(calculateAgeInHours(int(users[i]))))
-        print("     Age in minutes:  " + str(calculateAgeInMinutes(int(users[i]))))
+        AgePrinter.printAge(int(users[i]))
+        print("     Age in days:     " + str(AgeCalculator.calculateAgeInDays(int(users[i]))))
+        print("     Age in hours:    " + str(AgeCalculator.calculateAgeInHours(int(users[i]))))
+        print("     Age in minutes:  " + str(AgeCalculator.calculateAgeInMinutes(int(users[i]))))
         print("----------------------------------------------------------------------------------------------------")
-
-def calculateAgeInDays(age):
-    return age*360
-
-def calculateAgeInHours(age):
-    return age*360*24
-
-def calculateAgeInMinutes(age):
-    return age*360*24*60
-
-def printAge(age):
-    if(age < 12):
-        print("is a child")
-    else:
-        if(age <= 17):
-            print("is teenager")
-        else:
-            if (age <= 29):
-                print("is young")
-            else:
-                print("is adult")
 
 readUserInformation()
 printUsersAge()
