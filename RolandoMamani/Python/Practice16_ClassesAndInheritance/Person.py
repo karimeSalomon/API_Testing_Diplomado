@@ -1,15 +1,9 @@
 class Person:
-
-    first_name = None
-    last_name = None
-    age = None
-    ci = None
-
-    def __init__(self, name, last_name, age, ci):
-        self.first_name = name
-        self.last_name = last_name
+    def __init__(self, first, last, age, ci):
+        self.firstname = first
+        self.lastname = last
         self.age = age
         self.ci = ci
 
-    def name(self):
-        return self.first_name + " " + self.last_name
+    def Name(self):
+        return self.firstname + " " + self.lastname

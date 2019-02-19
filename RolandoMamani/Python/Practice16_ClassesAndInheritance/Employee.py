@@ -1,18 +1,18 @@
-import Person as Person
-
+import Person
 class Employee(Person):
 
-    employee_id = None
-    employee_department = None
+    def __init__(self, first, last, age, ci, e_id, e_department):
+        # Person.__init__(self,first, last, age, ci)
+        super().__init__(first, last, age, ci)
+        self.employee_id = e_id
+        self.employee_department = e_department
 
-    def __init__(self, first_name, last_name, age, ci, employee_id, employee_department):
-        super().__init__(first_name, last_name, age, ci)
-        self.employee_id = employee_id
-        self.employee_department = employee_department
+    def GetEmployee(self):
+        return self.Name() + ", " +  str(self.employee_id)
 
-    def getEmployee(self):
-        return self.name() + "," + self.employee_id
+person = Person("Juan", "Sejas", 40, 53697521)
 
+employee = Employee("Raul", "Orellana", 40, 435982355, 1007, "HHRR")
 
-x = Person("rolando", "mamani", "45", "4578541")
-print(x.name())
+print(person.Name())
+print(employee.GetEmployee())
