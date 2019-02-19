@@ -1,15 +1,15 @@
 
 @given(u'I have {amount} in my account')
 def step_impl(context, amount):
-    raise NotImplementedError(u'STEP: Given I have $100 in my account')
+    pass
 
 
-@when(u'I request $20 # the event(s)')
+@when(u'I request $20')
 def step_impl(context):
-    raise NotImplementedError(u'STEP: When I request $20')
+    pass
 
 
-@then(u'$20 should be dispensed # the outcome(s)')
+@then(u'$20 should be dispensed')
 def step_impl(context):
-    raise NotImplementedError(u'STEP: Then $20 should be dispensed')
+    pass
 

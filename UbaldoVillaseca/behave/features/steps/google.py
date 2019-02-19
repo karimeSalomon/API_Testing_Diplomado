@@ -1,8 +1,5 @@
 from behave import *
 
-use_step_matcher("re")
-
-
 @given("Open a Web browser")
 def step_impl(context):
     pass
@@ -41,27 +38,3 @@ def step_impl(context):
 @then("Nothing happens")
 def step_impl(context):
     pass
-
-
-@given("I have 100 in my account")
-def step_impl(context):
-    """
-    :type context: behave.runner.Context
-    """
-    raise NotImplementedError(u'STEP: Given I have 100 in my account')
-
-
-@when("I request \$20 # the event\(s\)")
-def step_impl(context):
-    """
-    :type context: behave.runner.Context
-    """
-    raise NotImplementedError(u'STEP: When I request $20 # the event(s)')
-
-
-@then("\$20 should be dispensed # the outcome\(s\)")
-def step_impl(context):
-    """
-    :type context: behave.runner.Context
-    """
-    raise NotImplementedError(u'STEP: Then $20 should be dispensed # the outcome(s)')
