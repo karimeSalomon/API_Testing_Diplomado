@@ -3,9 +3,11 @@ def sum_char(c, d):
 
 
 def read_characters(text):
-    """ Write a program that reads a string and returns a table of the letters of the alphabet in alphabetical
-    order which occur in the string together with the number of times each letter occurs.
-    Case should be ignored. A sample output of the program when the user enters the data
+    """ Write a program that reads a string and returns a table of the letters
+    of the alphabet in alphabetical order which occur in the string together
+    with the number of times each letter occurs.
+    Case should be ignored. A sample output of the program when the user
+    enters the data
 
     “ThiS is String with Upper and lower case Letters”, would look this this =>
         a 2
