@@ -2,6 +2,7 @@ import math
 
 
 def is_number(x):
+    """Create 1 script to determine is a number is odd or even (use single line statement if applies)"""
     if x % 2:
         return 'odd'
     else:
@@ -9,6 +10,7 @@ def is_number(x):
 
 
 def is_prime(x):
+    """According a list of values between a Min and Max range, identify if the number is prime or not."""
     for val in range(2, int(math.sqrt(x)) + 1):
         if not x % val:
             return False
