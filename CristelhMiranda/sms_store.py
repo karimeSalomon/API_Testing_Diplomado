@@ -37,6 +37,8 @@ class SmsStore:
     def __message_exists(self, index):
         return 0 <= index < self.message_count()
 
+
+# call store implementations
 sms_store = SmsStore()
 print(sms_store.message_count())
 print("adding one message")
