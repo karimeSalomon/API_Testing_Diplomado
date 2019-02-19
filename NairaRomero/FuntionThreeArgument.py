@@ -1,6 +1,31 @@
-def function_three_arguments( operando_1, operando_2, operando_3):
+def function_three_arguments( operator, op2, op1):
 
-    print("operando_1 ", operando_1, "perando_2", operando_2, "operator *" )
-    print(('operando_1 * operando_2) - operando_3 =', (operando_1 * operando_2) - operando_3))
+    if(operator == "+"):
+        result= op1+op2
+        print("Es una suma =", result )
+    elif(operator == "-"):
+        result= op1-op2
+        print("Es una resta =", result)
+    elif(operator == "*"):
+        result= op1*op2
+        print("Es una multiplicacion =", result)
+    elif(operator == "/"):
+        result= op1/op2
+        print("Es una division =", result)
+    elif(operator == "is"):
+        result = op1 is op2
+        if(result):
+            print(" El emento se encuentra en la list?-->", result)
+        else:
+            print("El elemento no se encuentra en la lista", result)
 
-function_three_arguments(20,10, 3)
+    else:
+        print("No se encontro el operador especificado")
+
+
+function_three_arguments("*",4, 3)
+function_three_arguments("-",4, 3)
+function_three_arguments("+",4, 3)
+function_three_arguments("/",4, 3)
+function_three_arguments("+++",4, 3)
+function_three_arguments("is",4, [1,2,5,7,8])
