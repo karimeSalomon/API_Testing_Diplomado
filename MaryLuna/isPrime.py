@@ -17,3 +17,4 @@ def isPrime(numMin, numMax):
 
 
 isPrime(1, 10)
+
