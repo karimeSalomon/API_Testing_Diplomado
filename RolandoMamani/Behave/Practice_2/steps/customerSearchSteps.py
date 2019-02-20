@@ -19,3 +19,4 @@ def step_impl(context, t_priced):
 
 @then(u'<Client Name> and its <Total Priced> are printed')
 def step_impl(context, c_name, t_priced):
+    context

@@ -29,7 +29,7 @@ Feature:  Customer search
     |Roberto    |2        |350         |
     |Adrian     |3        |250         |
     |Mario      |4        |320         |
-    |Elviz      |5        |1520        |
+    |Elvis      |5        |1520        |
     |Tito       |6        |5000        |
     |Nair       |7        |1450        |
     |Raul       |8        |3000        |
