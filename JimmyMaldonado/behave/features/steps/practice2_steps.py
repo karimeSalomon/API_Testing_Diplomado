@@ -8,12 +8,17 @@ def step_impl(context, link):
     print("LINK:", link)
 
 
-@when(u'I fill \'{firstName:w}\' in First Name field')
+@given(u'I have the user \'{username}\' created')
+def step_impl(context, username):
+    print("Username:", username)
+
+
+@when(u'I fill \'{firstName}\' in First Name field')
 def step_impl(context, firstName):
     print("Value for First Name:", firstName)
 
 
-@when(u'I fill \'{lastName:w}\' in Last Name field')
+@when(u'I fill \'{lastName}\' in Last Name field')
 def step_impl(context, lastName):
     print("Value for Last Name:", lastName)
 
@@ -56,6 +61,11 @@ def step_impl(context, gender):
 @when(u'I fill \'{phone:d}\' in Mobile Phone field')
 def step_impl(context, phone):
     print("Value for Gender:", phone)
+
+
+@when(u'I fill \'{currentEmail}\' in Your current email address field')
+def step_impl(context, currentEmail):
+    print("Value for Your current email address:", currentEmail)
 
 
 @when(u'I click on Save button')
