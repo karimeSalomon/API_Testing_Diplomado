@@ -3,24 +3,64 @@ def step_impl(context, url):
     print("URL:", url)
 
 
-@given(u'I click on \'{link}\' link')
+@given(u'I click on {link} link')
 def step_impl(context, link):
-    print("Link:", link)
+    print("LINK:", link)
 
 
-@when(u'I fill \'{value}\' in \'{field}\' field')
-def step_impl(context, value, field):
-    print("Field:", field, "Value: ", value)
+@when(u'I fill \'{firstName:w}\' in First Name field')
+def step_impl(context, firstName):
+    print("Value for First Name:", firstName)
 
 
-@when(u'I select \'{value}\' in \'{dropdown}\' dropdown')
-def step_impl(context, value, dropdown):
-    print("Dropdown:", dropdown, "Value: ", value)
+@when(u'I fill \'{lastName:w}\' in Last Name field')
+def step_impl(context, lastName):
+    print("Value for Last Name:", lastName)
 
 
-@when(u'I click on \'{buttonName}\' button')
-def step_impl(context, button):
-    print("Button:", button)
+@when(u'I fill \'{username}\' in Username field')
+def step_impl(context, username):
+    print("Value for Username:", username)
+
+
+@when(u'I fill \'{password}\' in Password field')
+def step_impl(context, password):
+    print("Value for Password:", password)
+
+
+@when(u'I fill \'{confirm}\' in Confirm field')
+def step_impl(context, confirm):
+    print("Value for Confirm:", confirm)
+
+
+@when(u'I select \'{month}\' in Month dropdown')
+def step_impl(context, month):
+    print("Value for Month:", month)
+
+
+@when(u'I fill \'{day:d}\' in Day field')
+def step_impl(context, day):
+    print("Value for Day:", day)
+
+
+@when(u'I fill \'{year:d}\' in Year field')
+def step_impl(context, year):
+    print("Value for Year:", year)
+
+
+@when(u'I select \'{gender}\' in Gender dropdown')
+def step_impl(context, gender):
+    print("Value for Gender:", gender)
+
+
+@when(u'I fill \'{phone:d}\' in Mobile Phone field')
+def step_impl(context, phone):
+    print("Value for Gender:", phone)
+
+
+@when(u'I click on Save button')
+def step_impl(context):
+    print("Click on Save button!!")
 
 
 @then(u'the message \'{message}\' is displayed')
