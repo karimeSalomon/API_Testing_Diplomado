@@ -16,3 +16,10 @@ Feature: Google main page
     When I write 5+2 in search box
       And I press Enter button
     Then I watch 7 as a result
+
+
+  Scenario: Do a search using search box
+    Given I go to google home page
+    When I write "nothing else matters" in search box
+      And I press Enter button
+    Then I watch results with text "nothing else matters"
