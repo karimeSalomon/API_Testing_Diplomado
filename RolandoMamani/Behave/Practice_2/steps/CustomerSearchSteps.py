@@ -1,4 +1,4 @@
-import
+import Clients_Priced as cp
 import compare
 
 @given(u'The {c_name}')
