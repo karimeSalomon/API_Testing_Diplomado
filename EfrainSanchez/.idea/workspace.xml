@@ -6,6 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70dbfd48-0157-4330-a4f5-6693ea30f6b8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Test2/features/file2.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test2/features/scenarioOutline.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test2/features/steps/stepsDef.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/EfrainSanchez.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EfrainSanchez.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -17,18 +20,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/EfrainSanchez$module_messages.coverage" NAME="module_messages Coverage Results" MODIFIED="1550491667315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Third day" />
-    <SUITE FILE_PATH="coverage/EfrainSanchez$import_modules.coverage" NAME="import_modules Coverage Results" MODIFIED="1550500237077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Third day" />
     <SUITE FILE_PATH="coverage/EfrainSanchez$area_circulo.coverage" NAME="area_circulo Coverage Results" MODIFIED="1550076305160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Second day" />
     <SUITE FILE_PATH="coverage/EfrainSanchez$parOimpar.coverage" NAME="parOimpar Coverage Results" MODIFIED="1550060891521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Second day" />
     <SUITE FILE_PATH="coverage/EfrainSanchez$suma_to.coverage" NAME="suma_to Coverage Results" MODIFIED="1550078161144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Second day" />
-    <SUITE FILE_PATH="coverage/EfrainSanchez$module_age.coverage" NAME="module_age Coverage Results" MODIFIED="1550492493754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Third day" />
-    <SUITE FILE_PATH="coverage/EfrainSanchez$take_url.coverage" NAME="take_url Coverage Results" MODIFIED="1550584128888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Second day" />
-    <SUITE FILE_PATH="coverage/EfrainSanchez$numeroPrimo.coverage" NAME="numeroPrimo Coverage Results" MODIFIED="1550060079939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Second day" />
-    <SUITE FILE_PATH="coverage/EfrainSanchez$day_on_month.coverage" NAME="day_on_month Coverage Results" MODIFIED="1550080487410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Second day" />
     <SUITE FILE_PATH="coverage/EfrainSanchez$replaces.coverage" NAME="replaces Coverage Results" MODIFIED="1550406904692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Third day" />
-    <SUITE FILE_PATH="coverage/EfrainSanchez$array.coverage" NAME="array Coverage Results" MODIFIED="1550410281745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Third day" />
+    <SUITE FILE_PATH="coverage/EfrainSanchez$module_age.coverage" NAME="module_age Coverage Results" MODIFIED="1550492493754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Third day" />
+    <SUITE FILE_PATH="coverage/EfrainSanchez$numeroPrimo.coverage" NAME="numeroPrimo Coverage Results" MODIFIED="1550060079939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Second day" />
     <SUITE FILE_PATH="coverage/EfrainSanchez$letter_of_candena.coverage" NAME="letter_of_candena Coverage Results" MODIFIED="1550411516581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Third day" />
+    <SUITE FILE_PATH="coverage/EfrainSanchez$module_messages.coverage" NAME="module_messages Coverage Results" MODIFIED="1550491667315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Third day" />
+    <SUITE FILE_PATH="coverage/EfrainSanchez$day_on_month.coverage" NAME="day_on_month Coverage Results" MODIFIED="1550080487410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Second day" />
+    <SUITE FILE_PATH="coverage/EfrainSanchez$import_modules.coverage" NAME="import_modules Coverage Results" MODIFIED="1550500237077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Third day" />
+    <SUITE FILE_PATH="coverage/EfrainSanchez$take_url.coverage" NAME="take_url Coverage Results" MODIFIED="1550584128888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Second day" />
+    <SUITE FILE_PATH="coverage/EfrainSanchez$array.coverage" NAME="array Coverage Results" MODIFIED="1550410281745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Third day" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -59,11 +62,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test2/features/file2.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="40" lean-forward="true" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test2/features/scenarioOutline.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="49" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Test2/features/steps/stepsDef.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -106,14 +136,16 @@
         <option value="$PROJECT_DIR$/Test/features/steps/stepAccounGmail.py" />
         <option value="$PROJECT_DIR$/.gitinit" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Test2/features/steps/stepsDef.py" />
+        <option value="$PROJECT_DIR$/Test2/features/file2.feature" />
+        <option value="$PROJECT_DIR$/Test2/features/scenarioOutline.feature" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-7" />
+    <option name="width" value="854" />
+    <option name="height" value="1017" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -121,8 +153,36 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="EfrainSanchez" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EfrainSanchez" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EfrainSanchez" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EfrainSanchez" type="462c0819:PsiDirectoryNode" />
+              <item name="Test2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EfrainSanchez" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EfrainSanchez" type="462c0819:PsiDirectoryNode" />
+              <item name="Test2" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EfrainSanchez" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EfrainSanchez" type="462c0819:PsiDirectoryNode" />
+              <item name="Test2" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,20 +353,21 @@
       <workItem from="1550584007320" duration="874000" />
       <workItem from="1550598275284" duration="1332000" />
       <workItem from="1550608331524" duration="5008000" />
+      <workItem from="1550619013265" duration="5404000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48172000" />
+    <option name="totallyTimeSpent" value="53576000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-7" y="0" width="854" height="1017" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.31543118" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.23929471" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.10310966" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.42081448" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Python Console" order="4" />
@@ -324,6 +385,29 @@
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.23929471" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="0" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.33710408" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Python Console" order="4" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.32733223" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="2" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -434,31 +518,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/features/steps/stepDefinitions.py" />
     <entry file="file://$PROJECT_DIR$/Test/features/createAccountGoogle.feature" />
-    <entry file="file://$PROJECT_DIR$/Test/features/acount.feature">
+    <entry file="file://$PROJECT_DIR$/Test/features/acount.feature" />
+    <entry file="file://$PROJECT_DIR$/Test/features/steps/Step250.py" />
+    <entry file="file://$PROJECT_DIR$/Test/features/test.feature" />
+    <entry file="file://$PROJECT_DIR$/Test/features/steps/stepAccounGmail.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/features/steps/Step250.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="71" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/features/test.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/features/testGoogle.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="595">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
@@ -469,17 +535,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/features/steps/stepAccounGmail.py">
+    <entry file="file://$PROJECT_DIR$/Test/features/testGoogle.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test2/features/file2.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="40" lean-forward="true" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test2/features/scenarioOutline.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test2/features/steps/stepsDef.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
         </state>
       </provider>
     </entry>
