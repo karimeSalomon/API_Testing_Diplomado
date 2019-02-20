@@ -63,3 +63,13 @@ the create account form contains:
          When username field leave the focus
          Then username is not a valid input
 
+    Scenario: Valid password field
+        Given write "Carlos" in password field
+         When password field leave the focus
+         Then password is valid input
+
+    Scenario: Valid password field
+        Given write "" in password field
+         When password field leave the focus
+         Then password is not a valid input
+
