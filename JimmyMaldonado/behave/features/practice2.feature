@@ -12,9 +12,11 @@
 
 Feature: Create Gmail account
 
-  Scenario: Verify Gmail account can be created
+  Background:
     Given I go to 'https://www.google.com/gmail'
       And I click on CREATE AN ACCOUNT link
+
+  Scenario: Verify Gmail account can be created
     When I fill 'Juan' in First Name field
       And I fill 'Perez' in Last Name field
       And I fill 'juan.perez' in Username field
@@ -30,15 +32,11 @@ Feature: Create Gmail account
 
   Scenario: Verify error message is displayed for duplicated username
     Given I have the user 'pepito.perez' created
-      And I go to 'https://www.google.com/gmail'
-      And I click on CREATE AN ACCOUNT link
     When I fill 'pepito.perez' in Username field
       And I click on Save button
     Then the message 'The account already exists!!' is displayed
 
   Scenario: Verify messages about required fields are displayed
-    Given I go to 'https://www.google.com/gmail'
-      And I click on CREATE AN ACCOUNT link
     When I fill ' ' in First Name field
       And I click on Save button
     Then the message 'First Name is required!!' is displayed
@@ -56,8 +54,6 @@ Feature: Create Gmail account
     Then the message 'Confirm is required!!' is displayed
 
   Scenario: Verify error message when Password and Confirm fields don't match
-    Given I go to 'https://www.google.com/gmail'
-      And I click on CREATE AN ACCOUNT link
     When I fill 'Juan' in First Name field
       And I fill 'Perez' in Last Name field
       And I fill 'juan.perez' in Username field
@@ -67,8 +63,6 @@ Feature: Create Gmail account
     Then the message 'Your password does not match!!' is displayed
 
   Scenario: Verify error message for a year before 1900
-    Given I go to 'https://www.google.com/gmail'
-      And I click on CREATE AN ACCOUNT link
     When I fill 'Juan' in First Name field
       And I fill 'Perez' in Last Name field
       And I fill 'juan.perez' in Username field
@@ -84,8 +78,6 @@ Feature: Create Gmail account
 
 
     Scenario: Verify error message for an invalid Current Email Address
-    Given I go to 'https://www.google.com/gmail'
-      And I click on CREATE AN ACCOUNT link
     When I fill 'Juan' in First Name field
       And I fill 'Perez' in Last Name field
       And I fill 'juan.perez' in Username field
