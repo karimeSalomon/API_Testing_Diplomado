@@ -20,8 +20,8 @@ Feature:  Customer search
     Given The <Client Name>
       And the <Client ID>
       And the <Total Priced> of purchase for each client
-    When asking for <Total Priced> by clients
-    Then <Client Name> and its <Total Priced> are displayed
+    When Asking for <Total Priced> by clients
+    Then <Client Name> and its <Total Priced> are printed
 
     Examples:
     |Client Name|Client ID|Total Priced|
