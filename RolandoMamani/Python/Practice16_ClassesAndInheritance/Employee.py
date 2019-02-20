@@ -1,4 +1,4 @@
-import Person
+from Person import Person
 class Employee(Person):
 
     def __init__(self, first, last, age, ci, e_id, e_department):
