@@ -1,13 +1,11 @@
+def read_numbers():
+    number_of_elements = int(input("set numbers: "))
+    listNum = []
+    for i in range(0, number_of_elements):
+        listNum.append(int(input("append: ")))
+    return listNum
 
-texto = "fadsaasdasdasdasdafdfdsfdsf"
+def print_list(array):
+    print("Array is", array)
 
-d = {}
-for letra in texto:
-    if d.has_key(letra):
-        d[letra] = d[letra] + 1
-    else:
-        d[letra] = 1
-
-print d
-print(d.keys())
-print (d.values())
+print_list(read_numbers())
