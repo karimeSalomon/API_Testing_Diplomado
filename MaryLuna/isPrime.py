@@ -1,20 +1,22 @@
-def isPrime(numMin, numMax):
+def isPrime(num):
+    for val in num:
+        prime = 0
+    iterator = 2
+    if (val == 1 or val == 2):
+        print(str(val) + " is prime")
+    else:
+        while ((val % iterator) != 0):
+            prime = 1
+            iterator += 1
+            if iterator == val: break
+        else:
+            prime = 0
+        if (prime == 0):
+            print(str(val) + " is not! prime")
+        else:
+            print(str(val) + "prime!")
 
 
-    limit = numMax +1
-    while(numMax < limit):
-            if numMin < 1:
-                # print (numMin + "no es primo")
-                print ("%s no es primo" % numMin)
-            elif numMin == 2:
-                print (str(numMin) + "es primo")
-            else:
-                    if numMin % 2 == 0:
-                        print ("%s no es primo" % numMin)
-                    else:
-                        print (str(numMin) + "es primo")
-    numMin+=1
+num = map(int, input("Enter a list of numbers separated by comma (Eg: 3,5,4):  ").split(","))
 
-
-isPrime(1, 10)
-
+isPrime(num)
