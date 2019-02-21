@@ -24,13 +24,14 @@ Feature: Customer search in product
           And I have a list of purchases
          When I search the client "<name>"
          Then I receive the total $<total>
-    Examples:
-        |         name |  id | total |
-        | Alvaro Arias | E01 |   120 |
-        |  Boris Bueno | E02 |  3400 |
-        |  Carlos Cruz | E03 |   135 |
-        |   Diego Diaz | E04 |  1230 |
-        |   Erick Edul | E05 | 10000 |
+
+        Examples:
+            |         name |  id | total |
+            | Alvaro Arias | E01 |   120 |
+            |  Boris Bueno | E02 |  3400 |
+            |  Carlos Cruz | E03 |   135 |
+            |   Diego Diaz | E04 |  1230 |
+            |   Erick Edul | E05 | 10000 |
 
     Scenario: Search of a client and verify that exists
         Given I have a list of clients
