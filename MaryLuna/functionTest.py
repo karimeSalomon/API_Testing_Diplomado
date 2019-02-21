@@ -1,14 +1,4 @@
-def print_lyrics():
-    "this is the lie reserved fro documentation"
-    print ("hola mundo")
-    print ("hola mundo 2")
-
-
-print_lyrics();
-
-
 def perform_operation():
-    "this is the lie reserved fro documentation"
     operator = ["+", "-", "*", "/"]
     for op in operator:
         a = 10
@@ -23,11 +13,13 @@ def perform_operation():
         if (op == "/"):
             res = a / b
 
-        print (res)
-
+        print(res)
 
 perform_operation();
 
-
-
+def perform_operation_2(num_1, num_2, operator):
+    print(eval(f'{num_1}{operator}{num_2}'))
+perform_operation_2(100, 20, '%')
+perform_operation_2(100, 20, '//')
+perform_operation_2(10, 2, '+')
 
