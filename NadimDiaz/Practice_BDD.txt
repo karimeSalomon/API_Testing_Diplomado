@@ -1,0 +1,41 @@
+#When and why BDD was defined?
+BDD or Behavior-driven development (BDD) is a Software development methodology. 
+The idea is to get an application based on the specifications and design (this last based on final user usage).
+We all that had experience working with Software development knows the big issues that we have when we provided a feature that worked in a different way that our costumer expected. A lot of times this happens because a lack of requirements and specification definitions. BDD tries to help here, and basically make our implementation dependent of the design / requirements.
+
+# The most important aspects of BDD
+Advantages:
+-Improves knowledge about business logic in the team, also improves communication inside the team. 
+-Reduces regression, if the tests are continuously executed (with proper configuration of CI/CD), we'll be sure that on regression we'll not have surprises.
+Dis advantages:
+-This all is based on specification, so, if we don’t have requirements or design very well defined, we’ll go into a problem. We’ll need to go with the team, sit and define all the needed. This is time and resources, if we have a PO (as we talked in classes) this helps a lot, more if this PO has well defined his tasks.
+-We also need a continuous feedback and review from the team. This is basically one more project that needs refactoring (when changes coming) and maintenance.
+
+#Why is useful and when could be applied?
+Mentioning some details on advantages and also on the next question.
+
+# Which type of teams could implement BDD
+Teams that are dispose to: 
+-collaboration (since we need a lot of work with stakeholders, testing team, etc)
+-focus on end users, BDD puts the customer’s por of view as main vision in mind first.
+-work on their business values.
+
+STRUCTURE OF A FEATURE
+Name: Search for books
+Size: 5 points
+Priority: High
+
+STORY:
+As a student
+I want to search a book in the application
+So that I know the store has it and the details about it
+
+SCENARIO:
+Given I logged in as Student
+When I search for “Agatha Christie: 10 porkies” book in the application
+Then I found information about the book
+
+#Differences between BDD and BDT
+The big difference is that BDT is most commonly worked in the teams, since who performs this is a special team instead of the development team. (Devs aren’t part of BDT)
+
+
