@@ -17,14 +17,14 @@ Feature:  Customer search
   in order to display the total priced by each client.
 
   Scenario Outline: Searching for the total priced for each asked client
-    Given The <Client Name>
-      And the <Client ID>
-      And the <Total Priced> of purchase for each client
-    When Asking for <Total Priced> by clients
+    Given the <Name of Client> as input parameter
+      And the <ID of Client>
+      And also given the <Total Priced> of purchase for each client
+    When It is asked for <Total Priced> by clients
     Then <Client Name> and its <Total Priced> are printed
 
     Examples:
-    |Client Name|Client ID|Total Priced|
+    |Name of Client|ID of Client|Total Priced|
     |Jose       |1        |200         |
     |Roberto    |2        |350         |
     |Adrian     |3        |250         |
