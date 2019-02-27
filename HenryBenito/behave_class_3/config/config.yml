@@ -1,0 +1,6 @@
+app:
+  #option in level
+  host: http://todo.ly
+  rootPath: /api
+  method: GET
+  code: 200
