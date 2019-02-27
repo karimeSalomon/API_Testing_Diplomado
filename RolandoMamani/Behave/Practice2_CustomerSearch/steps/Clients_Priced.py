@@ -13,6 +13,8 @@
 # 2. Add a normal scenario to simulate the search of a client and verify that exists into the client list(using the first has created before).
 """
 
-clients = {'Jose': 1, 'Roberto': 2,'Adrian': 3,'Mario': 4,'Elvis': 5,'Tito': 6,'Nair': 7,'Raul': 8,'Marco': 9,
-           'Fernando': 10}
+clients = {'Jose': 1, 'Roberto': 2,'Adrian': 3,'Mario': 4,'Elvis': 5,'Tito': 6,'Nair': 7,'Raul': 8,'Marco': 9,'Fernando': 10}
 total_priced = {1: 200, 2: 350, 3: 250, 4: 320, 5: 1520, 6: 5000, 7: 1450, 8: 3000, 9: 1500, 10: 450}
+
+def return_total_priced(name):
+    return total_priced[clients[name]]
