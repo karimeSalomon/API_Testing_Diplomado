@@ -1,5 +1,6 @@
-from CristelhMiranda.homework_modules.calculator_module import calculator_helper
-from CristelhMiranda.homework_modules.printer_module import message_printer
+from CristelhMiranda.python.homework_modules.calculator_module import calculator_helper
+from CristelhMiranda.python.homework_modules.printer_module import message_printer
+
 
 # Homework:
 # Ask to the user the amount of users
