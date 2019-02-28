@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 .idea/
 *.pyc
 .venv
+=======
+/.idea/
+/venv
+>>>>>>> 365c5d712ab5b442f3c5e002b7681c52f4f800c7
 __pycache__/
